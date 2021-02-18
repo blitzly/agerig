@@ -1,0 +1,25 @@
+/*
+ * Avantisoft - Frontpage Theme (http://toponeagency.com/)
+ * Copyright 2017 Avantisoft
+/*/
+body {
+  padding-top: 3.5rem;
+}
+
+.hero {
+  /* background: url('/img/frontend/hero-bg-1.jpg'); */
+  min-height: 28.9rem;
+  background-position: bottom;
+}
+.cta-1 {
+  background: url('/img/frontend/cta-bg-1.jpg');
+  min-height: 4rem;
+}
+
+.bg-dark-gray {
+  background: #1a1f24;
+}
+.search-cats-box .active a {
+  background: blue;
+  color: #fff !important;
+}

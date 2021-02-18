@@ -1,0 +1,13 @@
+/*
+ * Start Bootstrap - Business Frontpage (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 3.5rem;
+}
+
+.hero{ background: url('/img/frontend/hero-bg-1.jpg'); min-height: 28.9rem; background-position: bottom; }
+.cta-1{ background: url('/img/frontend/cta-bg-1.jpg'); min-height: 4rem }
+
+.bg-dark-gray{ background: #1A1F24; }
+.search-cats-box .active a{ background: blue; color: #fff !important; }

@@ -1,0 +1,1 @@
+Avanti Global CRM Framework V2.0

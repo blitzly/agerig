@@ -1,0 +1,35 @@
+/*
+ * Start Bootstrap - Business Frontpage (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 3.5rem;
+}
+
+.hero{ 
+  /* background: url('/img/frontend/adrian-hero-bg.jpg'); background-size: cover; background-position: center; background-blend-mode: multiply; min-height: 100vh;   */ 
+  min-height:100vh;
+  background:url(/img/frontend/adrian-hero-bg.jpg) rgba(0, 0, 0, 0.5);
+  background-size:cover;
+  background-blend-mode: overlay;
+  background-position: center;
+}
+.cta-1{ background: url('/img/frontend/cta-bg-1.jpg'); min-height: 4rem }
+
+.bg-dark-gray{ background: #1A1F24; }
+.search-cats-box .active a{ background: #0069D9; color: #fff !important; }
+.search-cats-box .active a::after { font-family: "FontAwesome"; content: "\f0da"; color: #0069D9 !important; position: absolute; right:-24px; font-size: 4.4rem; line-height: 24px; margin: 0; padding: 0; }
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #0069d9; 
+}
+.navbar-light .navbar-nav .nav-link { color: #3fb7e9; }
+
+.display-5 { font-size: 2.3rem; font-weight: 300; line-height: 1.2; }
+.display-6 { font-size: 2rem; font-weight: 300; line-height: 1.2; }
+.display-7 { font-size: 1.6rem; font-weight: 300; line-height: 1.2; }
+.display-8 { font-size: 1.3rem; font-weight: 400; line-height: 1.2; }
+.display-9 { font-size: 1.1rem; font-weight: 400; line-height: 1.2; }
+
+.text-darkblue{ color: #0051a0; }
+.label { padding: 0 15px 0 15px !important;   }
