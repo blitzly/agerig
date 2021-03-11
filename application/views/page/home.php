@@ -83,7 +83,7 @@
                     Skilled in LAMP (Linux, Apache, MariaDB, PHP), Databases, and Open Source Technologies.</p>
                 </div>
             </div>
-            
+            <div class="divider-2"></div>
             <div class="row pt-2">
                 <div class="col-lg-6">
                     <h6 class="mt-sm-6">Backend</h6>
@@ -124,13 +124,13 @@
                 <div class="title-cover-letter">P</div>
             </div>
             <div class="divider-2"></div>
-            <div class="row text-center">
+            <div class="row text-center mb-6">
                 <div class="col-md-12">
-                    <p class="pt-6">
+                    <p class="mt-6">
                     Below you will find some of my latest projects. Please stay tuned as I keep posting new cool content.</p>
                 </div>
             </div>
-            <div class="divider-2"></div>
+            <div class="divider-1"></div>
             <div class="row">
                 <div class="col-sm-12 col-md-6 text-center">
                     <a href="https://ashtonpaint.com" target="_blank">
