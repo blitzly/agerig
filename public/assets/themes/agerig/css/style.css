@@ -121,7 +121,6 @@ a:active{
 .bg-primary { background-color: #3f51b5 !important; }
 .bg-primary1 { background-color: #375DFF !important; }
 
-
 /* HEADER */
 header{
     background: #080914;
@@ -275,8 +274,8 @@ main #about{
     justify-content: center;
     /* align-items: center; */
     color: #333333;
-    height: 100vh;
-    padding-top: 7rem;
+    min-height: 100vh;
+    padding: 5rem;
 }
 
 /* SKILLS */
@@ -286,8 +285,8 @@ main #skills{
     justify-content: center;
     /* align-items: center; */
     color: #333333;
-    height: 60vh;
-    padding-top: 7rem;
+    min-height: 80vh;
+    padding: 5rem;
 }
 
 /* CONTACT */
@@ -306,7 +305,7 @@ main #contact i{
     color:#375EFF;
 }
 main #contact form{
-    padding: 1rem 10% 10% 10%;
+    padding: 1rem 10% 8rem 10%;
 }
 
 main #footer{
@@ -330,3 +329,26 @@ main #footer{
 #dashboard{
     padding: 0 2rem;
 }
+
+/* Responsive Design */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 767px) { 
+    header{ display: none; }
+    main{ padding-left: 0; }
+    main .center{ left: auto; }
+    main #about h3 { text-align: center; padding-top:0.6em;}
+    main #about .subtitle-1 { text-align: center; padding-top:0.2em;}
+    main #about, main #skills { padding: 4rem 2rem;}
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    main #about h3{ text-align: left !important; }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) { ... } */

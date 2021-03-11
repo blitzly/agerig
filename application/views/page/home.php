@@ -21,29 +21,29 @@
             </div>
             
             <div class="row pt-5">
-                <div class="col-md-3 text-center">
+                <div class="col-md-12 col-lg-3 text-center">
                     <img src="/img/adrian_fountain_square_pict.jpg" alt="">
                 </div>
-                <div class="col-md-9">
+                <div class="col-md-12 col-lg-9">
                     <h3>Adrian Gerig</h3>
-                    <p>Web Developer</p>
+                    <p class="subtitle-1">Web Developer</p>
                     <p>
                         I am a full stack web developer with over 15 years of experience working in the information technology and services industry. 
                         Skilled in LAMP (Linux, Apache, MariaDB, PHP), Databases, and Open Source Technologies. 
                     </p>
                     <div class="row pt-6">
-                        <div class="col-md-6">
+                        <div class="col-lg-6">
                             <h5>Location</h5>
                             <p>Indianapolis, IN. 46240</p>
                         </div>
                     </div>
-                    <div class="row pt-6">
-                        <div class="col-md-6">
+                    <div class="row py-6">
+                        <div class="col-sm-12 col-lg-6">
                             <h5>Education</h5>
                             <h6>Technical Engineer - Informatics. 2000 - 2003</h6>
                             <p><a href="http://upta.edu.ve/estudios.html#informatica" target="blank">Universidad Politecnica Territorial - Federico Brito Figueroa</a>, La Victoria. Venezuela.</p>	
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-sm-12 col-lg-6">
                             <h5>Additional Coursework/Seminars</h5>
                             <h6>Maya Master - Hyper Real Composition & Edition Program. 2005 - 2006</h6>
                             <p>AP Animation Studios, Caracas, Venezuela</p>
@@ -52,9 +52,10 @@
                             <p>Udemy - Maximilian Schwarzmuller</p>
                         </div>
                     </div>
+                    <div class="divider-1"></div>
                     <div class="d-inline">
-                        <a class="btn-primary">Download CV <?php echo !isset($_SESSION['id']) ? '*' : '' ?></a>
-                        <a class="btn-secondary" href="#contact">Send Message</a>
+                        <a class="btn-primary pt-6">Download CV <?php echo !isset($_SESSION['id']) ? '*' : '' ?></a>
+                        <a class="btn-secondary pt-6" href="#contact">Send Message</a>
                     </div>
                     <?php if (!isset($_SESSION['id'])){ ?>
                     <div class="pt-2">
@@ -74,32 +75,37 @@
                 <div class="title-cover-letter">S</div>
             </div>
             <div class="divider-2"></div>
-            <p class="pt-6">
-                I am a full stack web developer with over 15 years of experience working in the information technology and services industry. 
-                Skilled in LAMP (Linux, Apache, MariaDB, PHP), Databases, and Open Source Technologies.</p>
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="pt-6">
+                    I am a full stack web developer with over 15 years of experience working in the information technology and services industry. 
+                    Skilled in LAMP (Linux, Apache, MariaDB, PHP), Databases, and Open Source Technologies.</p>
+                </div>
+            </div>
+            
             <div class="row pt-2">
-                <div class="col-md-6">
-                    <h6>Backend</h6>
+                <div class="col-lg-6">
+                    <h6 class="mt-sm-6">Backend</h6>
                     <div class="progress">
                         <div class="progress-bar" style="width:70%"></div>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <h6>Frontend</h6>
+                <div class="col-lg-6">
+                    <h6 class="mt-sm-6">Frontend</h6>
                     <div class="progress">
                         <div class="progress-bar" style="width:70%"></div>
                     </div>
                 </div>
             </div>
-            <div class="row pt-5">
-                <div class="col-md-6">
-                    <h6>Web Design</h6>
+            <div class="row pt-md-5">
+                <div class="col-lg-6">
+                    <h6 class="mt-sm-6">Web Design</h6>
                     <div class="progress">
                         <div class="progress-bar" style="width:70%"></div>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <h6>Agile</h6>
+                <div class="col-lg-6">
+                    <h6 class="mt-sm-6">Agile</h6>
                     <div class="progress">
                         <div class="progress-bar" style="width:70%"></div>
                     </div>
@@ -158,10 +164,10 @@
                 <div class="form-group">
                     <textarea name="Message" id="contactMessage" placeholder="Here goes your message" class="form-control required" rows="7" required></textarea>
                 </div>
-                <div class="form-check">
+                <!-- <div class="form-check">
                     <input type="checkbox" name="" class="form-check-input" id="contactNewsletter">
                     <label class="form-check-label" for="exampleCheck1">I want to subscribe to your newsletter</label>
-                </div>
+                </div> -->
                 <div class="text-center">
                     <button type="submit" class="btn btn-primary" id="submit-contact-form-btn">Submit</button>
                     <span id="preloader"></span>
