@@ -121,6 +121,7 @@ a:active{
 .bg-primary { background-color: #3f51b5 !important; }
 .bg-primary1 { background-color: #375DFF !important; }
 
+.text-info    { color: #2196F3 !important; }
 /* HEADER */
 header{
     background: #080914;
@@ -286,6 +287,16 @@ main #skills{
     /* align-items: center; */
     color: #333333;
     min-height: 80vh;
+    padding: 5rem;
+}
+
+/* PORTFOLIO */
+main #portfolio{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    color: #333333;
+    min-height: 100vh;
     padding: 5rem;
 }
 

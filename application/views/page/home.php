@@ -75,6 +75,7 @@
                 <div class="title-cover-letter">S</div>
             </div>
             <div class="divider-2"></div>
+            <div class="divider-2"></div>
             <div class="row">
                 <div class="col-md-12">
                     <p class="pt-6">
@@ -113,6 +114,59 @@
             </div>
             
             
+        </div>
+    </section>
+    <!-- PORTFOLIO -->
+    <section id="portfolio">
+        <div class="container">
+        <div class="title">
+                <h1>Portfolio</h1>
+                <div class="title-cover-letter">P</div>
+            </div>
+            <div class="divider-2"></div>
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <p class="pt-6">
+                    Below you will find some of my latest projects. Please stay tuned as I keep posting new cool content.</p>
+                </div>
+            </div>
+            <div class="divider-2"></div>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 text-center">
+                    <a href="https://ashtonpaint.com" target="_blank">
+                        <img src="/img/portfolio/ashton-thumbnail.png" alt="" class="shadow-light" title="Click to open">
+                    </a>
+                    <p class="text-center">
+                        <small>Ashton Painting LLC <i class="text-info">#Wordpress #WebDesign</i></small> 
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-6 text-center">
+                <a href="https://bilbotri.com" target="_blank">
+                        <img src="/img/portfolio/bilbotri-thumbnail.png" alt="" class="shadow-light" title="Click to open">
+                    </a>
+                    <p class="text-center">
+                        <small>Bilbotri <i class="text-info">#Wordpress</i></small>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 text-center">
+                    <a href="https://luisaldreymusic.com" target="_blank">
+                        <img src="/img/portfolio/luisaldreymusic-thumbnail.png" alt="" class="shadow-light" title="Click to open">
+                    </a>
+                    <p class="text-center">
+                        <small>Luis Aldrey Music <i class="text-info">#WebApp #WebDesign #ReactJS</i> </small>
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-6 text-center">
+                <a href="http://thecreditladyusa.com/go/" target="_blank">
+                        <img src="/img/portfolio/thecreditlady-thumbnail.png" alt="" class="shadow-light" title="Click to open"> 
+                    </a>
+                    <p class="text-center">
+                        <small>The Credit Lady USA <i class="text-info">#Bootstrap</i></small>
+                    </p>
+                </div>
+            </div>
         </div>
     </section>
     <!-- CONTACT -->

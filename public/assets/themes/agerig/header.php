@@ -22,6 +22,7 @@
                 <li><a href="/#showcase">Home</a></li>
                 <li><a href="/#about">About</a></li>
                 <li><a href="/#skills">Skills</a></li>
+                <li><a href="/#portfolio">Portfolio</a></li>
                 <li><a href="/#contact">Contact</a></li>
                 <?php echo !isset($_SESSION['id']) ? '<li><a href="login">Login</a></li>' : "" ?>
                 <?php echo isset($_SESSION['id']) ? '<li><a href="login">Portfolio</a></li>' : "" ?>
