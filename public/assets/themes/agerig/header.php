@@ -34,3 +34,4 @@
         <a href="https://www.linkedin.com/in/adrian-gerig" target="blank"><i class="fa fa-linkedin"></i></a>
     </div>
 </header>
+<h1 id="navbar-toggle"><i class="bi bi-list"></i></h1>

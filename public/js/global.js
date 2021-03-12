@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    var toggleMenu = false;
 
     // General functions
     function emailIsValid(email) {
@@ -878,4 +879,15 @@ $(document).ready(function () {
         return false;
     });
 
+    $('#navbar-toggle').click(() => {
+        toggleMenu = !toggleMenu;
+        if (toggleMenu) {
+            $("header").css('display', 'block', 'important');
+            $("header").css('padding-top', '5em', 'important');
+        } else {
+            $("header").css('display', 'none', 'important');
+        }
+
+
+    });
 });

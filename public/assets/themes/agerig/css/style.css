@@ -122,6 +122,10 @@ a:active{
 .bg-primary1 { background-color: #375DFF !important; }
 
 .text-info    { color: #2196F3 !important; }
+#navbar-toggle{
+    color: #FFF;
+    cursor: pointer;
+}
 /* HEADER */
 header{
     background: #080914;
@@ -133,6 +137,7 @@ header{
     position: fixed;
     padding: 2rem 1.5rem;
     padding-top: 5%;
+    z-index: 1;
 }
 header h1{
     font-size: 1.6rem;
@@ -183,13 +188,13 @@ header #nav-container nav li{
 .divider-1{ height: 2%; }
 .divider-2{ height: 7%; }
 .divider-3{ height: 15%; }
+
 /* MAIN */
 main{
     padding-left: 15%;
 }
 
 /* SHOWCASE */
-
 main #showcase{
     display: flex;
     justify-content: center;
@@ -268,6 +273,7 @@ main #showcase .cover-letter{
 main #showcase .cover-letter.letter-xl {
     font-size: 80vh;
 }
+ #navbar-toggle{ display: none; z-index: 1; }
 
 /* ABOUT */
 main #about{
@@ -346,6 +352,7 @@ main #footer{
 /* // Small devices (landscape phones, 576px and up) */
 @media (max-width: 767px) { 
     header{ display: none; }
+    #navbar-toggle{ display: block; position: fixed; left: 5px; top: 5px; }
     main{ padding-left: 0; }
     main .center{ left: auto; }
     main #about h3 { text-align: center; padding-top:0.6em;}
