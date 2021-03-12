@@ -879,6 +879,7 @@ $(document).ready(function () {
         return false;
     });
 
+    // Toggle Menu
     $('#navbar-toggle').click(() => {
         toggleMenu = !toggleMenu;
         if (toggleMenu) {
@@ -890,4 +891,10 @@ $(document).ready(function () {
 
 
     });
+    $('main').click(() => {
+        if (toggleMenu) {
+            toggleMenu = false;
+            $("header").css('display', 'none', 'important');
+        }
+    })
 });
