@@ -213,7 +213,7 @@
                 </div>
                 
                 <div class="form-group">
-                    <input type="subject" name="Subject" class="form-control" id="contactSubject" placeholder="Subject" required>
+                    <input type="text" name="Subject" class="form-control" id="contactSubject" placeholder="Subject" required>
                 </div>
                 <div class="form-group">
                     <textarea name="Message" id="contactMessage" placeholder="Here goes your message" class="form-control required" rows="7" required></textarea>
@@ -231,7 +231,7 @@
         </div>
     </section>
     <!-- CONTACT -->
-    <section id="footer">
+    <div id="footer">
         <div class="container">
             <p class="text-center">
                 <a href="https://www.linkedin.com/in/adrian-gerig" target="blank"><i class="fa fa-linkedin"></i></a>
@@ -241,5 +241,5 @@
             </p>
         </div>
         
-    </section>
+    </div>
 </main>

@@ -95,6 +95,13 @@ a:active{
 .aligner-item {
     max-width: 50%;
 }
+.login-form-aligner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 2 0;
+    /* width: 300px; */
+}
 .user-avatar{
     border-radius: 50%;
     font-size: 1.6rem;

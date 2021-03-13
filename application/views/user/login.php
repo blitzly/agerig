@@ -1,50 +1,35 @@
 
-<div >
-  <div class="aligner" style="height:100vh;">
-    <div class="aligner-item" style="width:25vw;">
-        <form id="login-form">
-          <!-- Profile Image -->
-          <div class="card p-3">
-            <img class="img-thumbnail rounded-circle mx-auto d-block" src="<?php echo '/img/topsys/topone-logo.png' ?>" alt="agerig logo">
+<div class="container">
+  <div class="login-form-aligner" style="height:100vh;">
+    <form id="login-form">
+      <!-- Profile Image -->
+      
+        <img class="img-thumbnail rounded-circle mx-auto d-block" src="<?php echo '/img/topsys/topone-logo.png' ?>" alt="agerig logo">
 
-            <h3 class="profile-username text-center">agerig</h3>
+        <h3 class="profile-username text-center">agerig</h3>
+        <div class="mt-3 mb-3">
+            <label for="username" class="form-label">Username</label>
+            <input type="text" class="form-control" id="username" placeholder="Username">
+        </div>
+      
+        <div class="mb-3">
+            <label for="">Password</label>
+            <input type="password" class="form-control" id="password" placeholder="Password">
+        </div>
+      
+        <div class="mb-3 text-center" id="add_err"></div>
+      
+        <div class="mb-3">
+            <a href="" class="btn btn-primary btn-block" id="btn-login">Login <span id="preloader"></span></a>
+        </div>
+      
+        <div class="col-sm-12 text-center">
+          <a href="/">Back to home</a>
+        </div>
 
-            <div class="card-body">
-              <div class="row">
-                <div class="form-group col-sm-12">
-                    <label for="">Username</label>
-                    <input type="text" class="form-control" id="username" placeholder="Username">
-                </div>
-              </div>
-              <div class="row">
-                <div class="form-group col-sm-12">
-                    <label for="">Password</label>
-                    <input type="password" class="form-control" id="password" placeholder="Password">
-                </div>
-              </div>
-              <div class="row">
-                <div class="form-group col-sm-12 text-center" id="add_err"></div>
-              </div>
-              <div class="row">
-                <div class="form-group col-sm-12">
-                    <a href="" class="btn btn-primary btn-block" id="btn-login">Login <span id="preloader"></span></a>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-sm-12 text-center">
-                  <a href="/">Back to home</a>
-                </div>
-              </div>
-            </div>
-            <!-- /.card-body -->
-          </div>
-          <!-- /.card -->
-            
-          <!-- /.row -->
-          <input type="hidden" name="defa_controller" id="defa_controller" value="<?php echo (Application::getConfig('default.controller')); ?>">
-          <input type="hidden" name="defa_action" id="defa_action" value="<?php echo (Application::getConfig('default.action')); ?>">
-        </form>
-    </div>
+      <input type="hidden" name="defa_controller" id="defa_controller" value="<?php echo (Application::getConfig('default.controller')); ?>">
+      <input type="hidden" name="defa_action" id="defa_action" value="<?php echo (Application::getConfig('default.action')); ?>">
+    </form>
   </div>
 </div>
 
