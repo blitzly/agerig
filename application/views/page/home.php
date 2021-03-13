@@ -16,7 +16,7 @@
     <section id="about">
         <div class="container">
             <div class="title">
-                <h1>About me</h1>
+                <h2>About me</h2>
                 <div class="title-cover-letter">A</div>
             </div>
             
@@ -71,7 +71,7 @@
     <section id="skills">
         <div class="container">
             <div class="title">
-                <h1> Skills</h1>
+                <h2> Skills</h2>
                 <div class="title-cover-letter">S</div>
             </div>
             <div class="divider-2"></div>
@@ -120,7 +120,7 @@
     <section id="portfolio">
         <div class="container">
         <div class="title">
-                <h1>Portfolio</h1>
+                <h2>Portfolio</h2>
                 <div class="title-cover-letter">P</div>
             </div>
             <div class="divider-2"></div>
@@ -173,7 +173,7 @@
     <section id="contact">
         <div class="container">
             <div class="title">
-                <h1>Contact</h1>
+                <h2>Contact</h2>
                 <div class="title-cover-letter">C</div>
             </div>
             <div class="divider-2"></div>
